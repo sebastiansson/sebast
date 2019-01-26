@@ -5,6 +5,7 @@
   "builds": [
   	{ "src": "index.html", "use": "@now/html-minifier" },
   	{ "src": "*.jpg", "use": "@now/static" },
+  	{ "src": "*.jpeg", "use": "@now/static" },
   	{ "src": "*.webp", "use": "@now/static" }
   ]
 }
