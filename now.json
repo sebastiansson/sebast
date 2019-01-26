@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+  	{ "src": "index.html", "use": "@now/html-minifier" },
+  	{ "src": "*.jpg", "use": "@now/static" },
+  	{ "src": "*.webp", "use": "@now/static" },
+  	{ "src": "*.svg", "use": "@now/static" }
+  ]
+}
