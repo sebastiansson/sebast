@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "sebast",
+  "alias": "sebast.se",
+  "builds": [
+  	{ "src": "index.html", "use": "@vercel/html-minifier" },
+  	{ "src": "*.jpg", "use": "@vercel/static" },
+  	{ "src": "*.jpeg", "use": "@vercel/static" },
+  	{ "src": "*.webp", "use": "@vercel/static" }
+  ]
+}
