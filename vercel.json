@@ -3,7 +3,7 @@
   "name": "sebast",
   "alias": "sebast.se",
   "builds": [
-  	{ "src": "index.html", "use": "@vercel/html-minifier" },
+  	{ "src": "index.html", "use": "@now/html-minifier" },
   	{ "src": "*.jpg", "use": "@vercel/static" },
   	{ "src": "*.jpeg", "use": "@vercel/static" },
   	{ "src": "*.webp", "use": "@vercel/static" }
